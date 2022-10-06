@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Peralta&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bungee+Spice&family=Peralta&display=swap" rel="stylesheet">
+    <title>Five Nights At Freddy's</title>
+    <style>
+        header{
+            background-image: linear-gradient(to right, blue,purple,red,yellow);
+            height:100px;
+            padding:20px;
+            text-align: center;
+        }
+        h2, h3{
+            font-family: 'Abril Fatface', cursive;
+            font-family: 'Bungee Spice', cursive;
+            font-family: 'Peralta', cursive;
+            text-shadow: 1px 1px whitesmoke;
+        }
+        body{
+            background-image: url("/backgroundStage.jpg");
+            background-repeat: repeat-x;
+            background-position-x: center;
+            margin:0%;
+            padding:0%;
+            background-size: 100%;
+            background-blend-mode:luminosity;
+        }
+        body::-webkit-scrollbar{
+            display:none;
+        }
+        #RobotFlex{
+            display: flex;
+            flex-wrap:nowrap;
+            justify-content:space-around;
+            align-content:center;
+            margin-top:300px;
+            margin-left:100px;
+            margin-right:100px;
+            transition:1s;
+        }
+        .freddylog{
+            width:100px;
+            height:100px;
+            transition: 1s;
+        }
+        .bonnielog{
+            width:100px;
+            height:100px;
+            transition: 1s;
+        }
+        .chicalog{
+            width:100px;
+            height:100px;
+            transition: 1s;
+        }
+        .foxylog{
+            width:100px;
+            height:100px;
+            transition: 1s;
+        }
+        .goldenfreddylog{
+            width:100px;
+            height:100px;
+            transition: 1s;
+        }
+        .purpleguylog{
+            width:100px;
+            height:100px;
+            transition: 1s;
+        }
+        #h{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            transition: 1s;
+        }
+        #h:hover{
+            transform: scale(4);
+            transition: 1s;
+            background-blend-mode: normal;
+            filter: none;
+        }
+        img:hover{
+            filter: none;
+            transition:1s;
+            
+        }
+        img{
+            filter: grayscale(100%);
+            transition: 1s;
+        }
+        h1{
+            font-size:small;
+            text-align: center;
+            font-family: 'Bungee Spice', cursive;
+            font-family: 'Peralta', cursive;
+            transition: 1s;
+            color:darkblue;
+            text-shadow: 1px 1px hotpink;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h2>Welcome To Freddy Fazbear's Pizza!</h2>
+        <h3>Meet the Crew!</h3>
+    </header>
+<!-- Animatronics -->
+    <section id="RobotFlex">
+        <div id="h" class="foxy">
+           <h1>Foxy</h1>
+            <img  class="foxylog" src="foxy.png">
+        </div>
+
+        <div id="h" class="Bonnie">
+            <h1>Bonnie</h1>
+            <img class="bonnielog" src="bonnie.png">
+        </div>
+
+        <div id="h" class="Freddy">
+            <h1>Freddy</h1>
+            <img class="freddylog" src="freddy.png">
+        </div>
+
+        <div id="h" class="Chica">
+            <h1>Chica</h1>
+            <img class="chicalog" src="chica.png">
+        </div>
+        
+        <div id="h" class="PurpleGuy">
+            <h1>Purple Guy</h1>
+            <img class="purpleguylog" src="purpleguy.png">
+        </div>
+
+        <div id="h" class="GoldenFreddy">
+            <h1>Golden Freddy</h1>
+            <img class="goldenfreddylog" src="goldenfreddy.png">
+            
+        </div>
+    </section>
+</body>
+</html>
